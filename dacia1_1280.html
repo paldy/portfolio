@@ -20,266 +20,302 @@
         </noscript>
       <![endif]-->
     <style>
-    :root {
-        color-scheme: normal;
-        supported-color-schemes: normal;
-    }
+        :root {
+            color-scheme: normal;
+            supported-color-schemes: normal;
+        }
     </style>
     <style>
-    .x-wrapper {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
+        .x-wrapper {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
 
-    a[x-apple-data-detectors] {
-        word-break: normal;
-    }
+        a[x-apple-data-detectors] {
+            word-break: normal;
+        }
     </style>
     <style>
-    body {
-        margin: 0;
-    }
+        body {
+            margin: 0;
+        }
 
-    table.mso {
-        mso-cellspacing: 0;
-        padding: 0;
-        font-size: medium;
-        line-height: 150%;
-        font-family: Helvetica, sans-serif;
-    }
+        table.mso {
+            mso-cellspacing: 0;
+            padding: 0;
+            font-size: medium;
+            line-height: 150%;
+            font-family: Helvetica, sans-serif;
+        }
 
-    table.mso td {
-        vertical-align: top;
-    }
+        table.mso td {
+            vertical-align: top;
+        }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    li,
-    td {
-        mso-hyphenate: none;
-    }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        li,
+        td {
+            mso-hyphenate: none;
+        }
     </style>
     <style id="global-styles-link">
-    a {
-        color: #0000EE;
-        font-weight: 400;
-        text-decoration: underline;
-    }
+        a {
+            color: #0000EE;
+            font-weight: 400;
+            text-decoration: underline;
+        }
     </style>
     <style>
-    @font-face {
-        font-family: 'Dacia Block';
-        src: url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.eot) format('eot'),
-            url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff2) format('woff2'),
-            url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff) format('woff'),
-            url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.ttf) format('truetype');
-        font-weight: 400;
-        font-style: normal;
-    }
+        @font-face {
+            font-family: 'Dacia Block';
+            src: url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.eot) format('eot'),
+                url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff2) format('woff2'),
+                url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff) format('woff'),
+                url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
 
-    @font-face {
-        font-family: 'Dacia Block';
-        src: url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.eot) format('eot'),
-            url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff2) format('woff2'),
-            url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff) format('woff'),
-            url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.ttf) format('truetype');
-        font-weight: 700;
-        font-style: normal;
-    }
+        @font-face {
+            font-family: 'Dacia Block';
+            src: url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.eot) format('eot'),
+                url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff2) format('woff2'),
+                url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff) format('woff'),
+                url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.ttf) format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
 
-    @font-face {
-        font-family: 'Read';
-        src: url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.eot) format('eot'),
-            url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff2) format('woff2'),
-            url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff) format('woff'),
-            url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.ttf) format('truetype');
-        font-weight: 400;
-        font-style: normal;
-    }
+        @font-face {
+            font-family: 'Read';
+            src: url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.eot) format('eot'),
+                url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff2) format('woff2'),
+                url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff) format('woff'),
+                url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.ttf) format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
 
-    @font-face {
-        font-family: 'Read';
-        src: url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.eot) format('eot'),
-            url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff2) format('woff2'),
-            url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff) format('woff'),
-            url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.ttf) format('truetype');
-        font-weight: 700;
-        font-style: normal;
-    }
+        @font-face {
+            font-family: 'Read';
+            src: url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.eot) format('eot'),
+                url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff2) format('woff2'),
+                url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff) format('woff'),
+                url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.ttf) format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
+    </style>
+
+    <style>
+        @media screen and (max-width: 320px) {
+            .he1 {
+                font-size: 14px !important;
+            }
+
+            .p1 {
+                font-size: 12px !important;
+            }
+
+            .but1 {
+                font-size: 10px !important;
+            }
+        }
+    </style>
+
+    <style>
+        @media screen and (max-width: 320px) {
+            .p20 {
+                font-size: 14px !important;
+            }
+        }
     </style>
     <style>
-    @media screen and (max-width: 320px) {
-        .he1 {
-            font-size: 14px !important;
+        @media screen and (min-width: 322px) {
+            .c1vhh4ix {
+                display: table;
+            }
         }
 
-        .p1 {
-            font-size: 12px !important;
+        @media screen and (min-width: 322px) {
+            .c1wpp8j2 {
+                display: table-row;
+            }
         }
 
-        .but1 {
-            font-size: 10px !important;
+        @media screen and (min-width: 322px) {
+            .c1pix2ll {
+                display: table-cell;
+                width: 33.34%;
+            }
         }
-    }
-    </style>
-    <style>
-    @media screen and (max-width: 320px) {
-        .p20 {
-            font-size: 14px !important;
-        }
-    }
-    </style>
-    <style>
-    @media screen and (min-width: 322px) {
-        .c1vhh4ix {
-            display: table;
-        }
-    }
 
-    @media screen and (min-width: 322px) {
-        .c1wpp8j2 {
-            display: table-row;
+        @media screen and (min-width: 322px) {
+            .cpwlshu {
+                display: table-cell;
+            }
         }
-    }
 
-    @media screen and (min-width: 322px) {
-        .c1pix2ll {
-            display: table-cell;
-            width: 33.34%;
+        @media (min-width: 600px) {
+            .clp4498 {
+                display: block !important;
+            }
         }
-    }
 
-    @media screen and (min-width: 322px) {
-        .cpwlshu {
-            display: table-cell;
+        @media screen and (min-width: 322px) {
+            .cs3rky6 {
+                display: table-cell;
+                width: 33.33%;
+            }
         }
-    }
 
-    @media (min-width: 600px) {
-        .clp4498 {
-            display: block !important;
+        @media screen and (min-width: 322px) {
+            .cha2a91 {
+                display: table-cell;
+                width: 50%;
+            }
         }
-    }
 
-    @media screen and (min-width: 322px) {
-        .cs3rky6 {
-            display: table-cell;
-            width: 33.33%;
+        @media screen and (min-width: 322px) {
+            .c1cowpqk {
+                display: table-cell;
+                width: 16.41%;
+            }
         }
-    }
 
-    @media screen and (min-width: 322px) {
-        .cha2a91 {
-            display: table-cell;
-            width: 50%;
+        @media screen and (min-width: 322px) {
+            .c1bokj7n {
+                display: table-cell;
+                width: 68.12%;
+            }
         }
-    }
 
-    @media screen and (min-width: 322px) {
-        .c1cowpqk {
-            display: table-cell;
-            width: 16.41%;
+        @media screen and (min-width: 322px) {
+            .c158hgll {
+                display: table-cell;
+                width: 15.47%;
+            }
         }
-    }
-
-    @media screen and (min-width: 322px) {
-        .c1bokj7n {
-            display: table-cell;
-            width: 68.12%;
-        }
-    }
-
-    @media screen and (min-width: 322px) {
-        .c158hgll {
-            display: table-cell;
-            width: 15.47%;
-        }
-    }
     </style>
     <style data-isolated="outlook-web">
-    [class~="x_c1wpp8j2"] {
-        display: flex !important;
-        flex-wrap: wrap;
-    }
+        [class~="x_c1wpp8j2"] {
+            display: flex !important;
+            flex-wrap: wrap;
+        }
 
-    [class~="x_c1pix2ll"] {
-        flex-grow: 1;
-        box-sizing: border-box;
-        flex-basis: 107px;
-    }
+        [class~="x_c1pix2ll"] {
+            flex-grow: 1;
+            box-sizing: border-box;
+            flex-basis: 107px;
+        }
 
-    [class~="x_cpwlshu"] {
-        display: none !important;
-    }
+        [class~="x_cpwlshu"] {
+            display: none !important;
+        }
 
-    [class~="x_cs3rky6"] {
-        flex-grow: 1;
-        box-sizing: border-box;
-        flex-basis: 107px;
-    }
+        [class~="x_cs3rky6"] {
+            flex-grow: 1;
+            box-sizing: border-box;
+            flex-basis: 107px;
+        }
 
-    [class~="x_cpwlshu"] {
-        display: none !important;
-    }
+        [class~="x_cpwlshu"] {
+            display: none !important;
+        }
 
-    [class~="x_cha2a91"] {
-        flex-grow: 1;
-        box-sizing: border-box;
-        flex-basis: 161px;
-    }
+        [class~="x_cha2a91"] {
+            flex-grow: 1;
+            box-sizing: border-box;
+            flex-basis: 161px;
+        }
 
-    [class~="x_cpwlshu"] {
-        display: none !important;
-    }
+        [class~="x_cpwlshu"] {
+            display: none !important;
+        }
 
-    [class~="x_c1cowpqk"] {
-        flex-grow: 1;
-        box-sizing: border-box;
-        flex-basis: 53px;
-    }
+        [class~="x_c1cowpqk"] {
+            flex-grow: 1;
+            box-sizing: border-box;
+            flex-basis: 53px;
+        }
 
-    [class~="x_cpwlshu"] {
-        display: none !important;
-    }
+        [class~="x_cpwlshu"] {
+            display: none !important;
+        }
 
-    [class~="x_c1bokj7n"] {
-        flex-grow: 1;
-        box-sizing: border-box;
-        flex-basis: 219px;
-    }
+        [class~="x_c1bokj7n"] {
+            flex-grow: 1;
+            box-sizing: border-box;
+            flex-basis: 219px;
+        }
 
-    [class~="x_cpwlshu"] {
-        display: none !important;
-    }
+        [class~="x_cpwlshu"] {
+            display: none !important;
+        }
 
-    [class~="x_c158hgll"] {
-        flex-grow: 1;
-        box-sizing: border-box;
-        flex-basis: 50px;
-    }
+        [class~="x_c158hgll"] {
+            flex-grow: 1;
+            box-sizing: border-box;
+            flex-basis: 50px;
+        }
 
-    [class~="x_cpwlshu"] {
-        display: none !important;
-    }
+        [class~="x_cpwlshu"] {
+            display: none !important;
+        }
     </style>
     <style data-isolated="thunderbird" media="(min-width: 600px)">
-    .moz-text-html .clp4498 {
-        display: block !important;
-    }
+        .moz-text-html .clp4498 {
+            display: block !important;
+        }
     </style>
 </head>
 
-<body class="body" style="background: #fefefe;">
-    <div role="article" aria-roledescription="email" aria-label="Dacia" lang="und" dir="auto" style="font-size: max(16px, 1rem);color: #000000; background: #fefefe; line-height: 1.5; mso-line-height-alt: 150%; font-family: Helvetica, sans-serif; word-break: normal; word-wrap: normal; word-spacing: normal;" class="x-wrapper">
+<body class="body" style="background: #d8d8d8;">
+    <div role="article" aria-roledescription="email" aria-label="Dacia" lang="und" dir="auto"
+        style="font-size: max(16px, 1rem);color: #000000; background: #d8d8d8; line-height: 1.5; mso-line-height-alt: 150%; font-family: Helvetica, sans-serif; word-break: normal; word-wrap: normal; word-spacing: normal;"
+        class="x-wrapper">
+
         <div style="display: none">
-            L’électrique à partir pour tous et sans conditions &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;&nbsp;
-        </div> <!-- background="#c3c3c3" outer-background="#c1c1c1"  img float:left; -->
+            L’électrique à partir pour tous et sans conditions &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+            &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+            &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;&nbsp;
+        </div>
+
         <div style="padding: 0px;">
+
             <!--[if true]><table
     role="none"
     class="mso"
@@ -290,200 +326,269 @@
       <td></td><td style="width: 640px;">
         <![endif]-->
             <div lang="fr" style="overflow: auto; max-width: 640px; margin-left: auto; margin-right: auto;">
-                <div style="width: 100%; line-height: 1; mso-para-margin: 0;" class="c1vhh4ix">
-                    <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
+
+                <div style="width: 100%; line-height: 1; mso-para-margin: 0; background: #fefefe;" class="c1vhh4ix">
+                    <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #fefefe; line-height: 1;">
       <tr>
         <![endif]-->
                     <div class="c1wpp8j2">
+
                         <!--[if true]><td style="width: 33.34%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="c1pix2ll">
+
                             <div style="display: none; mso-hide: none; text-align: center;" class="clp4498">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/01_01_dacia1_1280_426x158.jpg" alt="" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/01_01_dacia1_1280_426x158.jpg"
+                                        alt="" width="213"
+                                        style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
-                            <!-- <x-image  href="dacia.fr" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/logo_trnsprnt.png" align="center" box-shadow="0 0 5px 5px rgba(255, 255, 255, 0.5), inset 0 0 9px 9px rgba(255, 255, 255, 0.5)" #set:line-height="0"   width="213px" /> -->
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/02_01_dacia1_1280_426x158.jpg" alt="DACIA" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/02_01_dacia1_1280_426x158.jpg"
+                                        alt="DACIA" width="213"
+                                        style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
+
                             <div style="display: none; mso-hide: none; text-align: center;" class="clp4498">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/03_01_dacia1_1280_426x158.jpg" alt="" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/03_01_dacia1_1280_426x158.jpg"
+                                        alt="" width="213"
+                                        style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/04_02_dacia1_1280_1280x640.jpg" alt="PLUS AFFIRMÉE" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/04_02_dacia1_1280_1280x640.jpg"
+                                        alt="PLUS AFFIRMÉE" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
-                <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
-                    <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
+
+                <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0; background: #fefefe;">
+                    <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #fefefe; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
-                            <!-- <x-image align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="05_03_dacia1_1280_1280x326.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/05_03_dacia1_1280_1280x326.jpg" width="640px" /> -->
-                            <h1 style="font-size: 22px; line-height: 1.1; mso-line-height-alt: 110%; font-family: 'Dacia Block', Read, Arial, sans-serif; text-align: center; margin: 24px 14px;" class="he1">
+
+                            <h1 style="font-size: 22px; line-height: 1.1; mso-line-height-alt: 110%; font-family: 'Dacia Block', Read, Arial, sans-serif; text-align: center; margin: 24px 14px;"
+                                class="he1">
                                 NOUVELLE DACIA SPRING <br>100% ÉLECTRIQUE <br>
                                 <span style="color: #626751;">
                                     NOUVEAU MOTEUR 65 CH, NOUVEAU LOOK <br>
                                     TOUJOURS À PRIX DACIA !
                                 </span>
                             </h1>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
-                <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
-                    <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
+
+                <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0; background: #fefefe;">
+                    <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #fefefe; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
-                            <!-- <x-image align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="06_04_dacia1_1280_1280x472.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/06_04_dacia1_1280_1280x472.jpg" width="640px" /> -->
-                            <p style="color: #565656; font-size: 16px; line-height: 1.2; mso-line-height-alt: 120%; font-family: 'Read Regular', Arial;; font-weight: 400; text-align: center; margin: 20px 30px;" class="p1">
+
+                            <p style="color: #565656; font-size: 16px; line-height: 1.2; mso-line-height-alt: 120%; font-family: 'Read Regular', Arial;; font-weight: 400; text-align: center; margin: 20px 30px;"
+                                class="p1">
                                 Bonjour [Prénom], <br><br>
-                                A la recherche d'un second véhicule qui facilitera vos déplacements et augmentera votre plaisir de conduite? C'est le moment de passer à l'électrique ! <br><br>
-                                Découvrez, sans attendre, Dacia Spring Extreme avec son moteur 100% électrique 65 ch, son nouveau look outdoor* et son autonomie jusqu'à 305 km(")! <br><br>
-                                Commandez-la dès maintenant pour être parmi les premiers à vivre l'expérience Dacia Spring Extreme.
+                                A la recherche d'un second véhicule qui facilitera vos déplacements et augmentera votre
+                                plaisir de conduite? C'est le moment de passer à l'électrique ! <br><br>
+                                Découvrez, sans attendre, Dacia Spring Extreme avec son moteur 100% électrique 65 ch,
+                                son nouveau look outdoor* et son autonomie jusqu'à 305 km(")! <br><br>
+                                Commandez-la dès maintenant pour être parmi les premiers à vivre l'expérience Dacia
+                                Spring Extreme.
                             </p>
+
                             <div style="text-align: center; margin: 44px 0px;">
-                                <a href="https://dacia.fr" style="display: inline-block; mso-padding-alt: 0; color: #ffffff; font-family: Read,Arial,sans-serif; font-size: 13px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #656a53; border-radius: 4px; text-underline-color: #656a53;" class="but1">
+
+                                <a href="https://dacia.fr"
+                                    style="display: inline-block; mso-padding-alt: 0; color: #ffffff; font-family: Read,Arial,sans-serif; font-size: 13px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #656a53; border-radius: 4px; text-underline-color: #656a53;"
+                                    class="but1">
                                     <!--[if mso]><i
             hidden
             style="mso-font-width: 307.69%; mso-text-raise: 246.16%;"
             >&#8203;&emsp;</i
-          ><![endif]--><span style="mso-text-raise: 123.08%; padding: 16px 40px; display: block;">DÉCOUVRIR SPRING EXTREME
+          ><![endif]--><span style="mso-text-raise: 123.08%; padding: 16px 40px; display: block;">DÉCOUVRIR SPRING
+                                        EXTREME
                                     </span>
                                     <!--[if mso]><i hidden style="mso-font-width: 307.69%;"
             >&emsp;&#8203;</i
           ><![endif]--></a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
-                <!-- <x-row id="05" :line-height="1" :gap="0" :layout='[100.0]'>
-      <x-column vertical-align="middle">
-        <x-image align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="07_05_dacia1_1280_1280x212.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/07_05_dacia1_1280_1280x212.jpg" width="640px" />
-      </x-column>
-    </x-row> -->
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/08_06_dacia1_1280_1280x562.jpg" alt="" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/08_06_dacia1_1280_1280x562.jpg"
+                                        alt="" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="width: 100%; line-height: 1; mso-para-margin: 0;" class="c1vhh4ix">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div class="c1wpp8j2">
+
                         <!--[if true]><td style="width: 50%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cha2a91">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/09_07_dacia1_1280_640x560.jpg" alt="09_07_dacia1_1280_640x560.jpg" width="320" style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/09_07_dacia1_1280_640x560.jpg"
+                                        alt="" width="320"
+                                        style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 50%; background-color: #f2f2f2; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto; background: #f2f2f2;" class="cha2a91">
-                            <h2 style="font-size: 18px; font-family: 'Dacia Block', Read, Arial, sans-serif; margin: 16px 14px;">
+
+                            <h2
+                                style="font-size: 18px; font-family: 'Dacia Block', Read, Arial, sans-serif; margin: 16px 14px;">
                                 PARÉE POUR <br>
                                 <span style="color: #626751;">
                                     L'AVENTURE URBAINE
                                 </span>
                             </h2>
-                            <p style="color: #565656; font-size: 14px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read,Arial,sans-serif; font-weight: 400; text-align: left; margin: 8px 14px;">Avec sa sellerie facile d'entretien, ses tapis et seuils de porte spécifiques ainsi que son système de navigation Media Nav, Spring Extreme est prête à vous accompagner au quotidien !
+
+                            <p
+                                style="color: #565656; font-size: 14px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read,Arial,sans-serif; font-weight: 400; text-align: left; margin: 8px 14px;">
+                                Avec sa sellerie facile d'entretien, ses tapis et seuils de porte spécifiques ainsi que
+                                son système de navigation Media Nav, Spring Extreme est prête à vous accompagner au
+                                quotidien !
                             </p>
+
                             <div style="text-align: center; margin: 24px 0px;">
-                                <a href="https://dacia.fr" style="display: inline-block; mso-padding-alt: 0; color: #626751; font-family: Read,Arial,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #f2f2f2; border: 2px solid #626751; border-radius: 0px 0px 0px 0px; text-underline-color: #f2f2f2;" class="c1tuz7x0">
+
+                                <a href="https://dacia.fr"
+                                    style="display: inline-block; mso-padding-alt: 0; color: #626751; font-family: Read,Arial,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #f2f2f2; border: 2px solid #626751; border-radius: 0px 0px 0px 0px; text-underline-color: #f2f2f2;"
+                                    class="c1tuz7x0">
                                     <!--[if mso]><i
             hidden
             style="mso-font-width: 583.33%; mso-text-raise: 200%;"
@@ -494,104 +599,132 @@
             >&emsp;&#8203;</i
           ><![endif]--></a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/11_08_dacia1_1280_1280x60.jpg" alt="11_08_dacia1_1280_1280x60.jpg" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/11_08_dacia1_1280_1280x60.jpg"
+                                        alt="" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
-                            <!-- <x-paragraph color="#565656" font-family="Arial, sans-serif" font-weight="400" :font-size="30" text-align="center" margin="0px 30px">Insert_the_text <a href="mailto:" style="color: #101010;">here</a></x-paragraph> -->
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/12_09_dacia1_1280_1280x562.jpg" alt="12_09_dacia1_1280_1280x562.jpg" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/12_09_dacia1_1280_1280x562.jpg"
+                                        alt="" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
-                            <!-- <x-paragraph color="#565656" font-family="Arial, sans-serif" font-weight="400" :font-size="30" text-align="center" margin="0px 30px">Insert_the_text <a href="mailto:" style="color: #101010;">here</a></x-paragraph> -->
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
-                <!-- <x-row :break-point="322" id="10" :line-height="1" :gap="0" :layout='[50.0, 50.0]'>
-      <x-column vertical-align="middle">
-        <x-image align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="13_10_dacia1_1280_640x558.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/13_10_dacia1_1280_640x558.jpg" width="320px" />
-      </x-column>
-      <x-column vertical-align="middle">
-        <x-image align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="14_10_dacia1_1280_640x558.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/14_10_dacia1_1280_640x558.jpg" width="320px" />
-      </x-column>
-    </x-row> -->
+
                 <div style="width: 100%; line-height: 1; mso-para-margin: 0;" class="c1vhh4ix">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div class="c1wpp8j2">
+
                         <!--[if true]><td style="width: 50%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cha2a91">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/13_10_dacia1_1280_640x558.jpg" alt="13_10_dacia1_1280_640x558.jpg" width="320" style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/13_10_dacia1_1280_640x558.jpg"
+                                        alt="" width="320"
+                                        style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 50%; background-color: #f2f2f2; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto; background: #f2f2f2;" class="cha2a91">
-                            <h2 style="font-size: 18px; font-family: 'Dacia Block', Read, Arial, sans-serif; margin: 16px 14px;">
+
+                            <h2
+                                style="font-size: 18px; font-family: 'Dacia Block', Read, Arial, sans-serif; margin: 16px 14px;">
                                 NOUVEAU <br>
                                 <span style="color: #626751;">
                                     MOTEUR
                                 </span>
                             </h2>
-                            <p style="color: #565656; font-size: 14px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read,Arial,sans-serif; font-weight: 400; text-align: left; margin: 8px 14px;"> 48kW, 65 ch. Concrètement ? C'est un moteur plus robuste, un meilleur démarrage, plus de polyvalence... bref plus de fun au volant !
+
+                            <p
+                                style="color: #565656; font-size: 14px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read,Arial,sans-serif; font-weight: 400; text-align: left; margin: 8px 14px;">
+                                48kW, 65 ch. Concrètement ? C'est un moteur plus robuste, un meilleur démarrage, plus de
+                                polyvalence... bref plus de fun au volant !
                             </p>
+
                             <div style="text-align: center; margin: 24px 0px;">
-                                <a href="https://dacia.fr" style="display: inline-block; mso-padding-alt: 0; color: #626751; font-family: Read,Arial,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #f2f2f2; border: 2px solid #626751; border-radius: 0px 0px 0px 0px; text-underline-color: #f2f2f2;" class="c1tuz7x0">
+
+                                <a href="https://dacia.fr"
+                                    style="display: inline-block; mso-padding-alt: 0; color: #626751; font-family: Read,Arial,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #f2f2f2; border: 2px solid #626751; border-radius: 0px 0px 0px 0px; text-underline-color: #f2f2f2;"
+                                    class="c1tuz7x0">
                                     <!--[if mso]><i
             hidden
             style="mso-font-width: 583.33%; mso-text-raise: 200%;"
@@ -602,129 +735,179 @@
             >&emsp;&#8203;</i
           ><![endif]--></a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/15_11_dacia1_1280_1280x62.jpg" alt="15_11_dacia1_1280_1280x62.jpg" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/15_11_dacia1_1280_1280x62.jpg"
+                                        alt="" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
-                            <!-- <x-paragraph color="#565656" font-family="Arial, sans-serif" font-weight="400" :font-size="30" text-align="center" margin="0px 30px">Insert_the_text <a href="mailto:" style="color: #101010;">here</a></x-paragraph> -->
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="width: 100%; line-height: 1; mso-para-margin: 0;" class="c1vhh4ix">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div class="c1wpp8j2">
+
                         <!--[if true]><td style="width: 50%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cha2a91">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/16_12_dacia1_1280_640x350.jpg" alt="16_12_dacia1_1280_640x350.jpg" width="320" style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/16_12_dacia1_1280_640x350.jpg"
+                                        alt="" width="320"
+                                        style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 50%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cha2a91">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/17_12_dacia1_1280_640x350.jpg" alt="17_12_dacia1_1280_640x350.jpg" width="320" style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/17_12_dacia1_1280_640x350.jpg"
+                                        alt="" width="320"
+                                        style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/18_13_dacia1_1280_1280x90.jpg" alt="18_13_dacia1_1280_1280x90.jpg" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/18_13_dacia1_1280_1280x90.jpg"
+                                        alt="" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
-                            <!-- <x-paragraph color="#565656" font-family="Arial, sans-serif" font-weight="400" :font-size="30" text-align="center" margin="0px 30px">Insert_the_text <a href="mailto:" style="color: #101010;">here</a></x-paragraph> -->
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="width: 100%; line-height: 1; mso-para-margin: 0;" class="c1vhh4ix">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div class="c1wpp8j2">
+
                         <!--[if true]><td style="width: 50%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cha2a91">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/Bloc_Autonomie_M1_640x570.gif" alt="19_14_dacia1_1280_640x568.jpg" width="320" style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/Bloc_Autonomie_M1_640x570.gif"
+                                        alt="" width="320"
+                                        style="vertical-align: middle; max-width: 100%; width: 320px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 50%; background-color: #f2f2f2; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto; background: #f2f2f2;" class="cha2a91">
-                            <!-- <x-image align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="20_14_dacia1_1280_640x568.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/20_14_dacia1_1280_640x568.jpg" width="320px" /> -->
-                            <h2 style="font-size: 18px; font-family: 'Dacia Block', Read, Arial, sans-serif; margin: 16px 14px;">
+
+                            <h2
+                                style="font-size: 18px; font-family: 'Dacia Block', Read, Arial, sans-serif; margin: 16px 14px;">
                                 UNE VOITURE <br>FAITE POUR VOUS
                             </h2>
-                            <p style="color: #565656; font-size: 14px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read,Arial,sans-serif; font-weight: 400; text-align: left; margin: 8px 14px;">Nouvelle Dacia Spring vous simplifie le quotidien avec son autonomie rassurante et sa recharge rapide ! Voyez par vous-même avec notre simulateur d'autonomie : passer à l'électrique n'a jamais été aussi simple.
+
+                            <p
+                                style="color: #565656; font-size: 14px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read,Arial,sans-serif; font-weight: 400; text-align: left; margin: 8px 14px;">
+                                Nouvelle Dacia Spring vous simplifie le quotidien avec son autonomie rassurante et sa
+                                recharge rapide ! Voyez par vous-même avec notre simulateur d'autonomie : passer à
+                                l'électrique n'a jamais été aussi simple.
                             </p>
+
                             <div style="text-align: center; margin: 24px 0px;">
-                                <a href="https://dacia.fr" style="display: inline-block; mso-padding-alt: 0; color: #626751; font-family: Read,Arial,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #f2f2f2; border: 2px solid #626751; border-radius: 0px 0px 0px 0px; text-underline-color: #f2f2f2;" class="c1tuz7x0">
+
+                                <a href="https://dacia.fr"
+                                    style="display: inline-block; mso-padding-alt: 0; color: #626751; font-family: Read,Arial,sans-serif; font-size: 12px; font-weight: 700; text-decoration: none; text-align: center; opacity: 1; background: #f2f2f2; border: 2px solid #626751; border-radius: 0px 0px 0px 0px; text-underline-color: #f2f2f2;"
+                                    class="c1tuz7x0">
                                     <!--[if mso]><i
             hidden
             style="mso-font-width: 458.33%; mso-text-raise: 200%;"
@@ -735,330 +918,482 @@
             >&emsp;&#8203;</i
           ><![endif]--></a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/21_15_dacia1_1280_1280x80.jpg" alt="21_15_dacia1_1280_1280x80.jpg" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/21_15_dacia1_1280_1280x80.jpg"
+                                        alt="" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
-                            <!-- <x-paragraph color="#565656" font-family="Arial, sans-serif" font-weight="400" :font-size="30" text-align="center" margin="0px 30px">Insert_the_text <a href="mailto:" style="color: #101010;">here</a></x-paragraph> -->
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="width: 100%; line-height: 1; mso-para-margin: 0; background: #656a53;" class="c1vhh4ix">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #656a53; line-height: 1;">
       <tr>
         <![endif]-->
                     <div class="c1wpp8j2">
+
                         <!--[if true]><td style="width: 16.41%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="c1cowpqk">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/22_16_dacia1_1280_210x192.jpg" alt="22_16_dacia1_1280_210x192.jpg" width="105" style="vertical-align: middle; max-width: 100%; width: 105px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/22_16_dacia1_1280_210x192.jpg"
+                                        alt="" width="105"
+                                        style="vertical-align: middle; max-width: 100%; width: 105px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 68.12%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="c1bokj7n">
-                            <p style="color: #ffffff; font-size: 16px; line-height: 1.1; mso-line-height-alt: 110%; font-family: Read, Arial, sans-serif; font-weight: 400; text-align: center; margin: 0px 20px;">
+
+                            <p
+                                style="color: #ffffff; font-size: 16px; line-height: 1.1; mso-line-height-alt: 110%; font-family: Read, Arial, sans-serif; font-weight: 400; text-align: center; margin: 0px 20px;">
                                 FAITES ESTIMER LA VALEUR DE VOTRE VÉHICULE <br>
                                 <strong>EN MOINS DE 3 MINUTES ! </strong>
                             </p>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 15.47%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="c158hgll">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/24_16_dacia1_1280_198x192.jpg" alt="24_16_dacia1_1280_198x192.jpg" width="99" style="vertical-align: middle; max-width: 100%; width: 99px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/24_16_dacia1_1280_198x192.jpg"
+                                        alt="" width="99"
+                                        style="vertical-align: middle; max-width: 100%; width: 99px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/25_17_dacia1_1280_1280x82.jpg" alt="25_17_dacia1_1280_1280x82.jpg" width="640" style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/25_17_dacia1_1280_1280x82.jpg"
+                                        alt="" width="640"
+                                        style="vertical-align: middle; max-width: 100%; width: 640px; line-height: 0;" />
                                 </a>
                             </div>
-                            <!-- <x-paragraph color="#565656" font-family="Arial, sans-serif" font-weight="400" :font-size="30" text-align="center" margin="0px 30px">Insert_the_text <a href="mailto:" style="color: #101010;">here</a></x-paragraph> -->
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; background-color: #f2f2f2; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%; background: #f2f2f2;">
-                            <!-- <x-image align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="26_18_dacia1_1280_1280x122.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/26_18_dacia1_1280_1280x122.jpg" width="640px" /> -->
-                            <p style="color: #656a53; font-size: 24px; font-family: 'Dacia Block', Read, Arial, sans-serif; font-weight: 700; text-align: center; margin: 20px 30px;">RESTONS EN CONTACT
+
+                            <p
+                                style="color: #656a53; font-size: 24px; font-family: 'Dacia Block', Read, Arial, sans-serif; font-weight: 700; text-align: center; margin: 20px 30px;">
+                                RESTONS EN CONTACT
                             </p>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
-                <div style="width: 100%; line-height: 1; mso-para-margin: 0; background: #f2f2f2;" class="c1vhh4ix">
-                    <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #f2f2f2; line-height: 1;">
+
+                <div style="mso-para-margin: 0; padding: 20px; background: #f2f2f2;">
+                    <div style="width: 100%; line-height: 1;" class="c1vhh4ix">
+                        <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #f2f2f2; line-height: 1;">
       <tr>
-        <![endif]-->
-                    <div class="c1wpp8j2">
-                        <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
+        <td colspan="5" style="line-height:1;font-size:20px;">&#8195;</td>
+      </tr><tr>
+        <td rowspan="3" style="padding-left:20px;width:20px;"></td><![endif]-->
+                        <div class="c1wpp8j2">
+
+                            <!--[if true]><td style="width: 33.33%; padding: 14px; vertical-align: top;">
   <![endif]-->
-                        <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
-                            <div style="text-align: center;">
-                                <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/27_19_dacia1_1280_426x340.jpg" alt="27_19_dacia1_1280_426x340.jpg" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
-                                </a>
+                            <div style="vertical-align: top; overflow: auto; padding: 14px;" class="cs3rky6">
+
+                                <div style="text-align: center;">
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/Icon_question.png"
+                                        alt="" width="50" style="vertical-align: middle; max-width: 100%; width: 50;" />
+
+                                </div>
+
+                                <p
+                                    style="font-family: 'Dacia Block',Read,Arial; font-weight: bold; text-align: center; margin: 16px 0;">
+                                    UNE<br>QUESTION ?
+                                </p>
+
                             </div>
-                        </div>
-                        <!--[if true]></td>
+                            <!--[if true]></td>
   <![endif]-->
-                        <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
+                            <!--[if true]><td style="width: 33.33%; padding: 14px; vertical-align: top;">
   <![endif]-->
-                        <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
-                            <div style="text-align: center;">
-                                <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/28_19_dacia1_1280_426x340.jpg" alt="28_19_dacia1_1280_426x340.jpg" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
-                                </a>
+                            <div style="vertical-align: top; overflow: auto; padding: 14px;" class="cs3rky6">
+
+                                <div style="text-align: center;">
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/Icon_person.png"
+                                        alt="" width="40" style="vertical-align: middle; max-width: 100%; width: 40;" />
+
+                                </div>
+
+                                <p
+                                    style="line-height: 1.6; mso-line-height-alt: 160%; font-family: 'Dacia Block',Read,Arial; font-weight: bold; text-align: center; margin: 16px 0;">
+                                    MY DACIA
+                                </p>
+
                             </div>
-                        </div>
-                        <!--[if true]></td>
+                            <!--[if true]></td>
   <![endif]-->
-                        <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
+                            <!--[if true]><td style="width: 33.33%; padding: 14px; vertical-align: top;">
   <![endif]-->
-                        <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
-                            <div style="text-align: center;">
-                                <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/29_19_dacia1_1280_426x340.jpg" alt="29_19_dacia1_1280_426x340.jpg" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
-                                </a>
+                            <div style="vertical-align: top; overflow: auto; padding: 14px;" class="cs3rky6">
+
+                                <div style="text-align: center;">
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/Icon_contact.png"
+                                        alt="" width="50" style="vertical-align: middle; max-width: 100%; width: 50;" />
+
+                                </div>
+
+                                <p
+                                    style="font-family: 'Dacia Block',Read,Arial; font-weight: bold; text-align: center; margin: 16px 0;">
+                                    NOUS<br>CONTACTER
+                                </p>
+
                             </div>
-                        </div>
-                        <!--[if true]></td>
+                            <!--[if true]></td>
   <![endif]-->
-                    </div>
-                    <!--[if true]></tr>
-      </table>
+
+                        </div>
+                        <!--[if true]><td rowspan="3" style="padding-right:20px;width:20px;"></td></tr>
+      <tr>
+        <td colspan="5" style="line-height:1;font-size:20px;">&#8195;</td>
+      </tr></table>
     <![endif]-->
+                    </div>
                 </div>
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0; background: #4e4a49;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #4e4a49; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
-                            <!-- <x-image  align="center" #set:line-height="0" href="https://www.dacia.fr/" alt="30_20_dacia1_1280_1280x120.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/30_20_dacia1_1280_1280x120.jpg" width="640px" /> -->
-                            <p style="color: #eae8e9; font-size: 16px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read, Arial, sans-serif; font-weight: 400; text-align: left; margin: 20px 20px;" class="p20">
+
+                            <p style="color: #eae8e9; font-size: 16px; line-height: 1.2; mso-line-height-alt: 120%; font-family: Read, Arial, sans-serif; font-weight: 400; text-align: left; margin: 20px 20px;"
+                                class="p20">
                                 Au quotidien, prenez les transports en commun #SeDéplacerMoinsPolluer
                             </p>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="width: 100%; line-height: 1; mso-para-margin: 0; background: #656a53;" class="c1vhh4ix">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #656a53; line-height: 1;">
       <tr>
         <![endif]-->
                     <div class="c1wpp8j2">
+
                         <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
+
                             <div style="display: none; mso-hide: none; text-align: center;" class="clp4498">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/31_21_dacia1_1280_426x268.jpg" alt="31_21_dacia1_1280_426x268.jpg" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/31_21_dacia1_1280_426x268.jpg"
+                                        alt="" width="213"
+                                        style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
+
                             <div style="text-align: center;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/32_21_dacia1_1280_426x268.jpg" alt="32_21_dacia1_1280_426x268.jpg" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/32_21_dacia1_1280_426x268.jpg"
+                                        alt="" width="213"
+                                        style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 33.33%; vertical-align: middle;">
   <![endif]-->
                         <div style="vertical-align: middle; overflow: auto;" class="cs3rky6">
+
                             <div style="display: none; mso-hide: none; text-align: center;" class="clp4498">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/33_21_dacia1_1280_426x268.jpg" alt="33_21_dacia1_1280_426x268.jpg" width="213" style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/33_21_dacia1_1280_426x268.jpg"
+                                        alt="" width="213"
+                                        style="vertical-align: middle; max-width: 100%; width: 213px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0; background: #f2f2f2;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #f2f2f2; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 22.03%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 22.03%;">
+
                             <div style="text-align: left;">
                                 <a href="https://www.dacia.fr/" style="display: inline-block;">
-                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/34_22_dacia1_1280_282x282.jpg" alt="eco" width="100" style="vertical-align: middle; max-width: 100%; width: 100px; line-height: 0;" />
+
+                                    <img src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/34_22_dacia1_1280_282x282.jpg"
+                                        alt="" width="100"
+                                        style="vertical-align: middle; max-width: 100%; width: 100px; line-height: 0;" />
                                 </a>
                             </div>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
                         <!--[if true]><td style="width: 77.97%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 77.97%;">
-                            <!-- <x-image #set:line-height="0" href="https://www.dacia.fr/" alt="35_22_dacia1_1280_998x282.jpg" src="https://emaildev.ams3.digitaloceanspaces.com/dacia1_1280/35_22_dacia1_1280_998x282.jpg" width="499px" /> -->
-                            <p style="font-size: 8px; font-family: Read, Arial, sans-serif; font-weight: 700; margin: 0px 40px 0px 10px;">
-                                Modèle présenté : Nouvelle Dacia Spring Extreme avec option peinture opaque bleu ardoise à 6,66€/jour, soit 200€/mois(*) - LLD 49 mois, 1° loyer de 7 500€, ramené à 0€ après déduction de 5 000€ de bonus écologique/5 et de 2 500€ de prime à la conversiona, 4 ans d'entretien inclus(6).
+
+                            <p
+                                style="font-size: 8px; font-family: Read, Arial, sans-serif; font-weight: 700; margin: 0px 40px 0px 10px;">
+                                Modèle présenté : Nouvelle Dacia Spring Extreme avec option peinture opaque bleu ardoise
+                                à 6,66€/jour, soit 200€/mois(*) - LLD 49 mois, 1° loyer de 7 500€, ramené à 0€ après
+                                déduction de 5 000€ de bonus écologique/5 et de 2 500€ de prime à la conversiona, 4 ans
+                                d'entretien inclus(6).
                             </p>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
                 <div style="display: table; width: 100%; line-height: 1; mso-para-margin: 0; background: #f2f2f2;">
                     <!--[if true]><table role="none" class="mso"  style="width: 100%; border-collapse: collapse; background-color: #f2f2f2; line-height: 1;">
       <tr>
         <![endif]-->
                     <div style="display: table-row">
+
                         <!--[if true]><td style="width: 100%; vertical-align: middle;">
   <![endif]-->
                         <div style="display: table-cell; vertical-align: middle; width: 100%;">
-                            <p style="font-size: 8px; font-family: Read, Arial, sans-serif; font-weight: 400; margin: 0px 40px 20px 17px;">
+
+                            <p
+                                style="font-size: 8px; font-family: Read, Arial, sans-serif; font-weight: 400; margin: 0px 40px 20px 17px;">
                                 <br>*style extérieur
-                                <br> <br>(1) Jusqu'à 305 km d'autonomie en cycle urbain** WLTP, selon version et équipements.
-                                Détail du cycle urbain: **le cycle urbain WLTP correspond à la partie urbaine du cycle normalisé. Le cycle complet WLTP est le cycle normalisé. Il se compose de 52% de trajets urbains et 48% de trajets extra-urbains (périurbains et autoroute).
-                                <br> <br>(2) Exemple pour Nouvelle Dacia Spring Essential neuve avec option peinture opaque bleu ardoise. 1* loyer de 7 500€ ramene a 0€ aprés deduction de 5 000€ de bonus ecologiques, correspondant a 27% du cout d'acquisition du véhicule TTC, et de 2 500€ de prime à la conversion(3), puis 48 loyers de 150€/mois quel que soit le nombre de jours par mois (soit 5€ par jour pour un mois de 30 jours).
-                                <br> <br>(2)(4) Le cas échéant, loyer à l'arrondi supérieur. Locations longue durée, hors assurances facultatives, sur 49 mois pour un kilométrage maximum de 40 000 km. Sous réserve d'étude et d'acceptation par DIAC agissant sous la marque commerciale Mobilize Financial Services, SA au capital de 415 100 500€ - Siège social : 14 avenue du Pavé Neuf 93160 Noisy-le-Grand SIREN 702 002 221 RCS Bobigny.
-                                <br> <br>En fin de contrat, restitution du véhicule chez votre concessionnaire avec paiement des frais de remise à l'état standard et des kilomètres supplémentaires.
-                                <br> <br>(3) Déduction faite de la prime à la conversion de 2 500€ sous condition de mise au rebut d'un véhicule particulier ou camionnette diesel mis en circulation avant 2011 ou essence mis en circulation avant 2006 (selon décret n°2022-1761 du 30 décembre 2022) et d'éligibilité, voir détails sur
+                                <br> <br>(1) Jusqu'à 305 km d'autonomie en cycle urbain** WLTP, selon version et
+                                équipements.
+                                Détail du cycle urbain: **le cycle urbain WLTP correspond à la partie urbaine du cycle
+                                normalisé. Le cycle complet WLTP est le cycle normalisé. Il se compose de 52% de trajets
+                                urbains et 48% de trajets extra-urbains (périurbains et autoroute).
+                                <br> <br>(2) Exemple pour Nouvelle Dacia Spring Essential neuve avec option peinture
+                                opaque bleu ardoise. 1* loyer de 7 500€ ramene a 0€ aprés deduction de 5 000€ de bonus
+                                ecologiques, correspondant a 27% du cout d'acquisition du véhicule TTC, et de 2 500€ de
+                                prime à la conversion(3), puis 48 loyers de 150€/mois quel que soit le nombre de jours
+                                par mois (soit 5€ par jour pour un mois de 30 jours).
+                                <br> <br>(2)(4) Le cas échéant, loyer à l'arrondi supérieur. Locations longue durée,
+                                hors assurances facultatives, sur 49 mois pour un kilométrage maximum de 40 000 km. Sous
+                                réserve d'étude et d'acceptation par DIAC agissant sous la marque commerciale Mobilize
+                                Financial Services, SA au capital de 415 100 500€ - Siège social : 14 avenue du Pavé
+                                Neuf 93160 Noisy-le-Grand SIREN 702 002 221 RCS Bobigny.
+                                <br> <br>En fin de contrat, restitution du véhicule chez votre concessionnaire avec
+                                paiement des frais de remise à l'état standard et des kilomètres supplémentaires.
+                                <br> <br>(3) Déduction faite de la prime à la conversion de 2 500€ sous condition de
+                                mise au rebut d'un véhicule particulier ou camionnette diesel mis en circulation avant
+                                2011 ou essence mis en circulation avant 2006 (selon décret n°2022-1761 du 30 décembre
+                                2022) et d'éligibilité, voir détails sur
                                 www.primealaconversion.gouv.fr.
-                                <br> <br>(5) Bonus écologique fixé à 27% du coût d'acquisition TTC du véhicule électrique neuf dans la limite de 5 000€ (selon décret n°2022-1761 du 30 décembre 2022). En vigueur jusqu'au 31 décembre 2023.
+                                <br> <br>(5) Bonus écologique fixé à 27% du coût d'acquisition TTC du véhicule
+                                électrique neuf dans la limite de 5 000€ (selon décret n°2022-1761 du 30 décembre 2022).
+                                En vigueur jusqu'au 31 décembre 2023.
                                 Conditions disponibles sur le site www.service-public.fr.
-                                <br> <br>(6) Entretien Dacia inclus dans le loyer pour 12€/mois comprenant la révision, le remplacement des filtres et l'ensemble des opérations prévues dans le programme d'entretien selon conditions contractuelles sur 49 mois jusqu'à 60 000 km (au 1" des 2 termes atteint). Voir détail de l'entretien en point de vente et sur dacia.fr. Le contrat de LLD peut être souscrit sans contrat d'entretien.
-                                <br>Offres non cumulables, réservées aux particuliers et valables dans le réseau Dacia participant pour toute commande d'une Nouvelle Dacia Spring neuve du 1° au 28 février 2023. Voir conditions en points de vente et sur dacia.fr.
-                                <br>Gamme Dacia Nouvelle Spring : Consommations homologuées en cycle urbain (Wh/km) : 102.
+                                <br> <br>(6) Entretien Dacia inclus dans le loyer pour 12€/mois comprenant la révision,
+                                le remplacement des filtres et l'ensemble des opérations prévues dans le programme
+                                d'entretien selon conditions contractuelles sur 49 mois jusqu'à 60 000 km (au 1" des 2
+                                termes atteint). Voir détail de l'entretien en point de vente et sur dacia.fr. Le
+                                contrat de LLD peut être souscrit sans contrat d'entretien.
+                                <br>Offres non cumulables, réservées aux particuliers et valables dans le réseau Dacia
+                                participant pour toute commande d'une Nouvelle Dacia Spring neuve du 1° au 28 février
+                                2023. Voir conditions en points de vente et sur dacia.fr.
+                                <br>Gamme Dacia Nouvelle Spring : Consommations homologuées en cycle urbain (Wh/km) :
+                                102.
                                 <br>Emissions de CO, : 0 lors du roulage, hors pièces d'usure.
-                                <br>Renault s.a.s. société par actions simplifiée au capital de 533 941 113 € / 122-122 bis avenue du Général
+                                <br>Renault s.a.s. société par actions simplifiée au capital de 533 941 113 € / 122-122
+                                bis avenue du Général
                                 <br>Leclerc - 92 100 Boulogne-Billancourt - R.C.S. Nanterre B 780 129 987
-                                <br>Si vous souhaitez vous désabonner afin de ne plus recevoir d'offres personnalisées de la part de Renault
+                                <br>Si vous souhaitez vous désabonner afin de ne plus recevoir d'offres personnalisées
+                                de la part de Renault
                                 <br>SAS et des membres de son réseau commercial, cliquez-ici
                                 <br>Si vous ne souhaitez pas que vos offres soient personnalisées, cliquez-ici.
                             </p>
+
                         </div>
                         <!--[if true]></td>
   <![endif]-->
+
                     </div>
                     <!--[if true]></tr>
       </table>
     <![endif]-->
                 </div>
+
                 <div style="line-height:1;font-size:0;display:none;mso-hide:none;">
                     <br clear="all" />
                 </div>
+
             </div>
+
             <!--[if true]></td>
       <td></td></tr>
   </table>
   <![endif]-->
         </div>
+
     </div>
+
 </body>
 
 </html>
